@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="14F27" minimumToolsVersion="Xcode 7.0">
+    <entity name="Timeslot" representedClassName="Timeslot" syncable="YES">
+        <attribute name="activity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="availabilityStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="end" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="guideNotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idActivity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idFake" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idTimeslot" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="managerNotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meetingLocation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="start" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="time_series_type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Timeslot" positionX="-54" positionY="-9" width="128" height="210"/>
+    </elements>
+</model>
