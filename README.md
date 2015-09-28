@@ -1,5 +1,5 @@
 # Mobile DB Tests
-The purpose of this project is to test performances of mobile DBs libraries. Two tests are ran: writing and reading.
+The purpose of this project is to test performances of mobile DBs libraries on iOS. Two tests are ran: writing and reading.
 
 Here are the tested databases:
 - Core Data
