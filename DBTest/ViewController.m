@@ -187,7 +187,7 @@
     NSMutableArray *res = [NSMutableArray new];
     
     
-    for (NSInteger i=1;i<=90;i++) {
+    for (NSInteger i=1;i<=10;i++) {
         for (NSDictionary *aDico in timeslots) {
             [res addObject:[aDico copy]];
         }
