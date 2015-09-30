@@ -17,9 +17,7 @@
     
     [realm transactionWithBlock:^{
         for (NSDictionary *timeslot in timeslots) {
-            RLMTimeslot *ts = [RLMTimeslot new];
-            [ts setFields:timeslot];
-            [realm addObject:ts];
+            [RLMTimeslot createInRealm:realm withValue:timeslot];
         }
     }];
     

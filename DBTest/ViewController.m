@@ -69,7 +69,12 @@
 
 - (void) launchRealmWriteTests {
     
-    NSArray *data = [self getTimeslotsData];
+    NSArray *originalData = [self getTimeslotsData];
+    NSMutableArray *mappedData = [NSMutableArray arrayWithCapacity:originalData.count];
+    for (NSDictionary *originalFields in originalData) {
+        [mappedData addObject:[RLMTimeslot mapFields:originalFields]];
+    }
+    NSArray *data = [mappedData copy];
     ExecutionBlock block = [PKRealmManager realmInsertionBlock:data];
     
     NSString *taskName = [NSString stringWithFormat:@"REALM - Persisted %lu timeslots", (unsigned long)data.count];

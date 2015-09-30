@@ -22,6 +22,6 @@
 @property NSString * time_series_type;
 @property NSString *availabilityStatus;
 
-- (void) setFields:(NSDictionary*)fields;
++ (NSDictionary *)mapFields:(NSDictionary *)fields;
 
 @end
