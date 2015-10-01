@@ -15,12 +15,12 @@ Here are the tested databases:
 
 # Results
  
-                       Write test        |       Read test  
-                 (operations / second)   |   (operations / second)
-Core Data                 7401           |          39
-Realm                     21341          |          28632
-Couchbase SQLite          704            |          54
-Couchbase ForestDB        695            |          2334
+                                         Write test        |       Read test  
+                                   (operations / second)   |   (operations / second)
+                  Core Data                 7401           |          39
+                 Realm                      21341          |          28632
+                 Couchbase SQLite           704            |          54
+                 Couchbase ForestDB         695            |          2334
 
 #Links
 - Realm
